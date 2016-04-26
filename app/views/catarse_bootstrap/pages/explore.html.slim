@@ -1,0 +1,13 @@
+- content_for :title, t('.title')
+- content_for :application_js do
+  = javascript_include_tag 'api/application' 
+- controller.referral_it!
+= render 'shared/header_big', overlayer: true
+
+- if current_user
+  #nearOfData data-state="#{current_user.address_state}"
+
+#explore[data-mithril="ProjectsExplore"]
+  .w-section.hero-search
+
+= render 'shared/footer_big'

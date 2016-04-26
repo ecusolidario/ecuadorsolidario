@@ -1,0 +1,25 @@
+- contribution = @notification.contribution
+- detail = contribution.details.ordered.first
+- company_name = CatarseSettings[:company_name]
+- contact_email = CatarseSettings[:email_contact]
+|Olá, <strong>#{contribution.user.display_name}</strong>!
+br
+br
+|A devolução do seu apoio para o projeto #{contribution.project.name} no #{company_name} acabou de ser realizada. O crédito efetivo deverá acontecer na fatura vigente, caso ela ainda esteja em aberto, ou na subsequente, caso a desse mês já esteja fechada.
+br
+br
+|Valor devolvido: #{number_to_currency detail.value}
+br
+br
+|Data do reembolso: #{I18n.l detail.refunded_at}
+br
+br
+|Identificação na fatura do cartão de crédito: “Estorno do Catarse”
+br
+br
+|Se ficou com alguma dúvida, entre em contato conosco respondendo a esta mensagem ou através do e-mail #{mail_to contact_email}. Não esqueça de nos informar a chave de identificação do seu apoio, que é: #{detail.payment_id}
+br
+br
+|Um abraço,
+br
+| #{company_name}
