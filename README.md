@@ -1,23 +1,20 @@
-# Catarse
-[![Circle CI](https://circleci.com/gh/catarse/catarse/tree/master.svg?style=svg)](https://circleci.com/gh/catarse/catarse/tree/master)
-[![Coverage Status](https://coveralls.io/repos/catarse/catarse/badge.svg?branch=master)](https://coveralls.io/r/catarse/catarse?branch=master)
-[![Code Climate](https://codeclimate.com/github/catarse/catarse/badges/gpa.svg)](https://codeclimate.com/github/catarse/catarse)
+# EcuadorSolidario
 
-The first crowdfunding platform from Brazil
+La plataforma de co-financiamiento de Ecuador para la reconstrucción
 
-## An open-source crowdfunding platform for creative projects
+## Una plataforma open-source para el financiamiento de proyectos de reconstrucción.
 
-Welcome to Catarse's source code repository.
-Our goal with opening the source code is to stimulate the creation of a community of developers around a high-quality crowdfunding platform.
+Bienvenidos al repositorio de EcuadorSolidario.
+Nuestro objetivo es estimular a la comunidad de emprendedores tecnológicos para unir esfuerzos solidarios para así crear una plataforma global que permita la organización de las tentativas de ayuda y solidaridad en las necesidades creadas en las zonas afectadas por el Terremoto de Ecuador en el 2016. Creando una plataforma de alta calidad para obtener bienes y servicios que satisfagan las necesidades de la comunidad.
 
-You can see the software in action in http://catarse.me.
-The official repo is https://github.com/catarse/catarse
+Usted puede ver el software en acción en http://ecuadorsolidario.org.
+The official repo is https://github.com/ecuadorsolidario/ecuadorsolidario
 
-## Getting started
+## Cómo empezar
 
-### Dependencies
+### Dependencias
 
-To run this project you need to have:
+Para ejecutar este proyecto se necesita:
 
 * Ruby 2.2.3
 
@@ -30,99 +27,86 @@ To run this project you need to have:
   * Linux - `$ sudo apt-get install postgresql`
   * Windows - [PostgreSQL for Windows](http://www.postgresql.org/download/windows/)
 
-  **IMPORTANT**: Make sure you have postgresql-contrib ([Aditional Modules](http://www.postgresql.org/docs/9.3/static/contrib.html)) installed on your system.
+  **IMPORTANTE**: Asegurarse de tener postgresql-contrib ([Aditional Modules](http://www.postgresql.org/docs/9.3/static/contrib.html)) instalado en el sistema.
 
 ### Setup the project
 
-* Clone the project
+* Clonar el proyecto
 
-        $ git clone https://github.com/catarse/catarse.git
+        $ git clone https://github.com/ecuadorsolidario/ecuadorsolidario.git
 
-* Enter project folder
+* Entrar al directorio del proyecto.
 
-        $ cd catarse
+        $ cd ecuadorsolidario
 
-* Create the `database.yml`
+* Crear el archivo de configuración `database.yml`
 
         $ cp config/database.sample.yml config/database.yml
 
-    You must do this to configure your local database!
-    Add your database username and password (unless you don't have any).
+    Se debe hacer para configurar la base de datos local!
+    Adicione su usuario y contraseña de base de datos (a menos que no tenga ninguna).
 
-* Install the gems
+* Instalar las gems
 
         $ bundle install
 
-* Install the front-end dependencies
+* Instalar las dependencias de front-end
 
         $ bower install
 
-    Requires [bower](http://bower.io/#install-bower), which requires [Node.js](https://nodejs.org/download/) and its package manager, *npm*. Follow the instructions on the bower.io website.
+    Requiere [bower](http://bower.io/#install-bower), el cual requiere [Node.js](https://nodejs.org/download/) y su package manager, *npm*. Siga las instrucciones en el sitio web bower.io.
 
-* Create and seed the database
+* Crear, migrar y agregar los datos básicos dentro de la base de datos
 
         $ rake db:create db:migrate db:seed
 
-* Configure the API server
+* Configure el API server
 
-	We provide authentication through JWT ([JSON Web Tokens](http://jwt.io/)) and it can be configured by `CatarseSettings` into rails console.
+	Se provee autenticación a través de JWT ([JSON Web Tokens](http://jwt.io/)) y ésta puede ser configurada a través de `CatarseSettings` dentro de la consola de rails.
 
 		$ bundle exec rails console
 		> CatarseSettings[:api_host] = "http://localhost:3004" # postgREST server url
 		> CatarseSettings[:jwt_secret] = "gZH75aKtMN3Yj0iPS4hcgUuTwjAzZr9C" # this token is just a valid example
 
-If everything goes OK, you can now run the project!
+Si todo está OK, ahora se puede ejecutar el proyecto!
 
-### Running the project
+### Ejecutando el proyecto
 
-* Run API server
+* Ejecutar el API server
 
-	After downloading PostgREST 0.3.x you can unpack and run the executable as bellow.
+	Después de descargar PostgREST 0.3.x desempacar y ejecutar el archivo ejecutable como se explica:.
 
-		$ ./postgrest postgres://postgrest@localhost/catarse_development -a anonymous --jwt-secret gZH75aKtMN3Yj0iPS4hcgUuTwjAzZr9C -s 1 -p 3004
+		$ ./postgrest postgres://postgrest@localhost/hack4ec_development -a anonymous --jwt-secret gZH75aKtMN3Yj0iPS4hcgUuTwjAzZr9C -s 1 -p 3004
 
-* Run Rails server
+* Ejecutar el servidor Rails
 ```bash
 $ rails server
 ```
 
-Open [http://localhost:3000](http://localhost:3000)
+Abrir [http://localhost:3000](http://localhost:3000)
 
-### Translations
+## Cómo contribuir con código
 
-We hope to support a lot of languages in the future, so we are willing to accept pull requests with translations to other languages.
+Los planes de esta aplicación se discuten en Slack (http://hack4ec.slack.com).
 
-Thanks a lot to Daniel Walmsley, from http://purpose.com, for starting the internationalization and beginning the English translation.
+Despues de eso, solamente haga un fork del proyecto, realice los cambios necesarios, y envíenos un pull request.
 
-## Payment gateways
+### Mejores prácticas (o cómo hacer que su pull request sea aceptado rápidamente)
 
-Currently, we support pagarme through our payment engines. Payment engines are extensions to Catarse that implement a specific payment gateway logic.
-
-If you have created a different payment engine to Catarse, please contact us so we can link your engine here.
-If you want to create a payment engine, please join our mailing list at http://groups.google.com/group/catarse-dev
-
-## How to contribute with code
-
-Discuss your plans in our mailing list (http://groups.google.com/group/catarse-dev).
-
-After that, just fork the project, change what you want, and send us a pull request.
-
-### Best practices (or how to get your pull request accepted faster)
-
-* Follow this style guide: https://github.com/bbatsov/ruby-style-guide
-* Create one acceptance tests for each scenario of the feature you are trying to implement.
-* Create model and controller tests to keep 100% of code coverage in the new parts you are writing.
-* Feel free to add specs to committed code that lacks coverage ;)
+* Seguir esta guía de estilo de desarrollo: https://github.com/bbatsov/ruby-style-guide
+* Crear una prueba de aceptación por cada escenario de la característica que está tratando de implementar.
+* Crear pruebas del modelo y del controlador para mantener un 100% de cobertura de código en las nuevas partes que se están escribiendo.
+* Estar en la libertad de agregar specs a código existente y que tenga deficiencia de cobertura ;)
 * Let our tests serve as a style guide: we try to use implicit spec subjects and lazy evaluation wherever we can.
 
-## Credits
+## Créditos
 
-Author: Daniel Weinmann
+Código Base: Catarse (https://github.com/catarse/catarse). Se utiliza esta plataforma para el crecimiento de la aplicación
 
-Contributors: You know who you are ;) The commit history can help, but the list was getting bigger and pointless to keep in the README.
+Contribuciones: Sabemos quienes participamos en el código ;) La historia de commits puede ayudar, pero la lista está creciendo por lo que podría resultar poco práctico incluir a cada uno en el README.
 
-## License
+## Licencia
 
-Copyright (c) 2016 Softa
+Copyright (c) 2016 EcuadorSolidario
 
 Licensed under the MIT license (see MIT-LICENSE file)

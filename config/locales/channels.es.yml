@@ -1,0 +1,44 @@
+es:
+  channels_subscribers:
+    created: 'Está ahora siguiendo %{channel}'
+    deleted: 'No está siguiendo %{channel}'
+  channels:
+    send_your_project: "Enviar su proyecto"
+    send_a_email: "Enviar un email"
+    follow: "Seguir canal"
+    following: "Siguiendo"
+    unfollow: "Dejar de seguir"
+    subscribed: "%{count} suscritos a este canal"
+    admin:
+      menu: "Moderación de canal"
+      statistics_menu: "Estadísticas"
+      profile_menu: "Perfil del Canal"
+      statistics:
+        title: 'Estadísticas del canal'
+        total_subscribers: 'Suscripciones totales'
+    projects:
+      send: "Enviar su proyecto"
+      see_how_it_works: "Mire cómo funciona y envíe su proyecto."
+      how_it_works: "Cómo funciona"
+      progress_html: "<span>%{percent}%</span> financiado"
+      time_remaining_html:
+        one: "<span>%{count} %{unit}</span> restante"
+        other: "<span>%{count} %{unit}</span> restante"
+      pledged_html: "<span>%{value}</span> comprometido"
+    how_it_works:
+      title: "Cómo funciona %{channel}?"
+    footer:
+      terms: "Términos de uso"
+      privacy_policy: "Política de privacidad"
+      how_it_works: "Cómo funciona %{name}"
+      how_channels_work: "Entendiendo los canales de EcuadorSolidario"
+      contact: "Contacto"
+    accessibility:
+      how_it_works: "Haga clic para saber como funciona el canal y enviar un proyecto"
+      send_your_project: "Clic para enviar el proyecto"
+      link_to_twitter: "Channel twitter link"
+      link_to_facebook: "Channel facebook link"
+      link_to_website: "Channel website"
+    presentation:
+      link-to-follow: 'Seguir canal'
+      followers: 'seguidores'

@@ -1,0 +1,61 @@
+es:
+  formtastic:
+    hints:
+      reward:
+        description: Describa su recompensa de forma que despierte el interés de la gente para apoyar el proyecto. ¡No sea tímido!
+        maximum_contributions: Si su recompensa es limitada, por favor indique a cuantas personas.
+        minimum_value: Este el valor mínimo para ganar una recompensa.
+        days_to_delivery: Indique en cuantos días, luego de alcanzar el objetivo del proyecto, se planea entregar la recompensa.
+      contribution:
+        credits: Usted tiene <strong>{%credits}</strong> en créditos y puede seguir ayudando
+           sin realizar un nuevo pago.
+      project:
+        about: Comente un poco sobre su inspiración para realizar el proyecto, su
+          historia y lo que será entregado al final. Sea breve y evite trámites y
+           avisos. Nada de METAS, ANTECEDENTES, OBJETIVO ... Trate de captar a
+           sus lectores con algo que haga que reaccionen y sea muy transparente acerca
+           la expectativa del proyecto.
+        category: Antes de enviar su proyecto, explore y busque inspiración con otros proyectos
+          que existen en este sitio.
+        first_contributions: Para que su campaña tenga éxito, es esencial para llevar
+           Póngase en contacto con su red más cercana. Por lo tanto, la lista aquí que usted cree
+           que será sus primeros 20 seguidores
+        goal: "Es importante recordar que gran parte del apoyo provendrá de las personas cercanas
+           usted (1º y 2º nivel de relación): <a href='http://blog.ecuadorsolidario.org/sua-campanha-no-catarse-precisa-de-um-empurrazinho'
+          target='_blank'>Clic aquí!</a> Por lo tanto, para establecer el valor que desea
+          recuadar a través de EcuadorSolidario es fundamental pensar en la capacidad de movilizar
+          por lo menos el 50% del valor dentro de su propia red de contactos."
+        headline: Resuma e 140 caracteres su proyecto. Esta frase será el primer
+          contacto de las pessoas con el mismo, antes inclusive de ver el vídeo. Sea
+          creativo, transparente y directo :)
+        more_links: Cuáles serán los canales de difusión? (Coloque links
+          como Facebook, Twitter, Blogs... todo lo que ayudará a divulgar su
+          proyecto)
+        name: Cuanto más directo mejor. Describa su proyecto.
+        online_days: En promedio, los proyectos están al aire durante 40 días.
+        uploaded_image: Aquí puede cargar e incluir una imagen (.jpg) con tamaño 512x400.
+        video_url: El vídeo es la parte principal del proyecto. Si aún no lo tiene
+          no es necesario incluirlo... Pero debe ir pensando ya en como hacer un vídeo MATADOR!
+        video_url_edit: Incluya aquí el link del video en VIMEO o YOUTUBE.
+    labels:
+      reward:
+        description: Decripción
+        minimum_value: Valor mínimo
+        days_to_delivery: Previsión de entrega
+        maximum_contributions: Máximo de contribuyentes (opcional)
+      contribution:
+        credits: Quiero usar mis créditos para esta contribución
+        anonymous: Quiero que mi contribución sea anónima.
+        value: ¿Con cuánto desea contribuir?
+        reward: Seleccione una recompensa
+      project:
+        about: Historia de su proyecto y de como el $ será utilizado *
+        expires_at: ¿Cuánto tiempo para alcanzar el mínimo? *
+        first_contributions: Lista de los primeros contribuyentes *
+        goal: ¿Cuánto pretende recaudar? (solo números)*
+        headline: Lema / Slogan *
+        traffic_sources: ¿Cómo se enteró de EcuadorSolidario? *
+        more_links: Lista de Links relacionados a su proyecto *
+        name: Nombre del proyecto *
+        video_url: Vídeo
+

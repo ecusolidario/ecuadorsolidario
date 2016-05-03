@@ -1,0 +1,13 @@
+es:
+  activerecord:
+    errors:
+      models:
+        project:
+          attributes:
+            permalink:
+              invalid: URL del proyecto no válido
+        user:
+          attributes:
+            email:
+              not_found: "Email no existe, por favor regístrese"
+              taken: "Email ya está presente en el sistema"

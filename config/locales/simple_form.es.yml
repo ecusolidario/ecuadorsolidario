@@ -1,0 +1,59 @@
+es:
+  simple_form:
+    collections:
+      project:
+        traffic_sources:
+          one: "Tengo otro proyecto en EcuadorsSolidario"
+          two: "a través de una persona que tiene un proyecto en EcuadorsSolidario"
+          three: "me indicó un colega / amigo / contacto profesional"
+          four: "de un proyecto que estaba recogiendo en la plataforma"
+          five: "artículo en un blog"
+          six: "un artículo en la prensa (portal de noticias de Internet, televisión, periódicos, revistas)"
+          seven: "en una clase / curso / conferencia / evento"
+          eight: "Hice una búsqueda en Internet sobre financiamiento colectivo / formas alternativas de financiamiento"
+          nine: "Otros"
+    validation_texts:
+      reward:
+        minimum_value: "Indique un valor mínimo superior o igual a 10"
+        description: "Introduzca una descripción de la recompensa"
+      bank_account:
+        input_bank_number: "Número de Banco no válido"
+        bank_id: "Seleccione un Banco"
+        agency: "¿Cuál es el número de la agencia?"
+        account: "¿Cuál es el número de cuenta?"
+        account_digit: "¿Cuál es el dígito de control?"
+        agency_digit: "¿Cuál es el dígito de la agencia?"
+        owner_name: "Indique un nombre con un mínimo de 5 y un máximo de 30 letras"
+        owner_document: "Indique la CI válida para el titular de la cuenta"
+      contribution:
+        payer_name: "Por favor, indique el nombre de quien contribuye"
+        payer_email: "Indique un correo válido"
+        payer_document: "Por favor, ingrese un número de Cédula válido"
+        address_state: "Seleccione una provincia / estado"
+        address_street: "Ingrese el nombre de la calle"
+        address_number: "Indique el número de casa"
+        address_neighbourhood: "Digite el nombre del barrio / sector"
+        address_city: "Indique el nombre de la ciudad"
+        address_zip_code: "Ingrese el Código Postal (ZIP)"
+        address_phone_number: "Digite el número de teléfono"
+    prompts:
+      project:
+        category: "Seleccione una categoría"
+        select: "Seleccione una opción"
+        traffic_sources: "¿Cómo se enteró de EcuadorSolidario?"
+    hints:
+      project:
+        select: "Seleccione una opción"
+        traffic_sources: "¿Cómo se enteró de EcuadorSolidario?"
+        name: "Indique un nombre que las personas recuerden fácilmente y que no supere los 50 caracteres."
+        all_tags: "Ingrese tags (etiquetas) separadas por comas (,)"
+        permalink: "Puede editarlo para su proyecto en línea. Prefiera algo simple directo y que identifique a su proyecto. trate de no usar guión, guión bajo, etc."
+        category: "Elija la más adecuada para su proyecto."
+        city: "¿Dónde se llevará a cabo su proyecto? Si acaso se desarrolla en más de un lugar, un consejo es ubicar la ciudad o localización con mayor impacto."
+        goal: "Planee un objetivo coherente con su proyecto. Revise su presupuesto y no olvide incluir la tasa del 13% que cobra EcuadorSolidario."
+        online_days: "Se puede elegir entre 1 y 60 días para su campaña. Consulte la ayuda para obtener información sobre los plazos."
+        video_url: "Link a su vídeo en Vimeo o <br/> Youtube."
+        about_html: "Exprese con pasión y claridad sobre cómo se utilizarán los recursos. Aclare cualquier duda sobre quien está atras del proyecto, cómo y cuando el proyecto será entregado. La Transparencia atrae a más interesados. Recuerde: su proyecto será analizado por gente común que decidirá la importancia o no del mismo. Capriche! "
+        headline: "Cita que permitirá como titular llamar a los interesados, debe tenemor un máximo de 100 caracteres y resumir bien el proyecto."
+        uploaded_image: "Esta imagen se utilizará como vista preliminar del proyecto (PNG, JPG tamaño 600 x 340)"
+

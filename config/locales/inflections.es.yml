@@ -1,0 +1,18 @@
+es:
+  found_singular: Encontrado
+  found_plural: Encontrados
+  project_singular: proyecto
+  project_plural: proyectos
+  contribution_singular: contribuyente
+  contribution_plural: contribuyentes
+  remaining_singular: restante
+  remaining_plural: restantes
+  created_project:
+    zero: "no ha creado proyectos"
+    one: "%{count} proyecto creado"
+    other: "%{count} proyectos creados"
+  contributed_project:
+    zero: "no se ha apoyado proyectos"
+    one: "apoyó %{count} proyecto"
+    other: "apoyó %{count} proyectos"
+

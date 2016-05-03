@@ -27,5 +27,8 @@
     "mithril": "0.2.0",
     "chartjs": "1.0.2",
     "catarse.js": "0.9.6"
+  },
+  "resolutions": {
+    "mithril": "0.2.4"
   }
 }

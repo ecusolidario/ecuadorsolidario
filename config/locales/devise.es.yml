@@ -1,0 +1,99 @@
+# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
+
+es:
+  devise:
+    feedback_tab:
+      title: 'Comentarios y soporte'
+      header_html: "Bienvenido a<br/> ingreso a EcuadorSolidario"
+      blog_button: 'Leer más'
+      form_feedback_link: 'Dar comentarios'
+      contact_link: 'Contactar a soporte'
+    confirmations:
+      confirmed: "Su cuenta ha sido confirmada. Ahora ha iniciado una sesión."
+      send_instructions: "Recibirá un email con las intrucciones de cómo confirmar su cuenta en unos minutos."
+      send_paranoid_instructions: "Si la dirección de email existe en nuestra base de datos, recibirá un email email con instrucciones de cómo confirmar su cuenta en unos minutos."
+    failure:
+      password_token: 'Este enlace para restablecer la contraseña ha expirado. Ingrese su dirección email otra vez.'
+      already_authenticated: ""
+      #already_authenticated: "You are already signed in."
+      inactive: "Su cuenta aún no ha sido activada."
+      invalid: "Email o contraseña no son válidos."
+      invalid_token: "Token de autenticación no válido."
+      locked: "Su cuenta está bloqueada."
+      not_found_in_database: "Email o contraseña no son válidos."
+      timeout: "Su sesión ha expirado, por favor ingrese otra vez para continuar."
+      unauthenticated: ''
+      #unauthenticated: "You need to sign in or sign up before continuing."
+      unconfirmed: "Debe confirmar su cuenta antes de continuar."
+    mailer:
+      confirmation_instructions:
+        subject: "Instrucciones de Confirmación"
+      reset_password_instructions:
+        subject: "Instrucciones para Restablecer la contraseña"
+      unlock_instructions:
+        subject: "Instrucciones para desbloquear"
+    omniauth_callbacks:
+      failure: "No se puede autenticar desde %{kind} porque \"%{reason}\"."
+      success: ''
+      #success: "Successfully authenticated from %{kind} account."
+    passwords:
+      no_token: ''
+      #no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: "Este enlace para restablecer la contraseña ha expirado. Ingrese su dirección email otra vez."
+      send_paranoid_instructions: "Si la dirección de email existe en nuestra base de datos, recibirá un enlace para restrablecer la contraseña en su email en unos minutos."
+      updated: ""
+      #updated: "Your password has been set"
+      updated_not_active: "Su contraseña ha sido cambiada satisfactoriamente."
+      new:
+        site_title: 'Olvidé mi contraseña'
+        title: 'Ingrese su dirección de email y solicite restablecer su contraseña'
+        submit: 'Enviar instrucciones para restablecer mi contraseña'
+      edit:
+        site_title: 'Restablecer contraseña'
+        label_new_password: 'Ingrese su nueva contraseña:'
+        title: 'Restablecer contraseña'
+        subtitle: 'Restablecer contraseña para usar su email y contraseña en su ingreso a EcuadorSolidario'
+        submit: 'Restablecer contraseña'
+    registrations:
+      destroyed: "Bye! Su cuenta ha sido cancelada. Esperamos verte pronto."
+      signed_up: ""
+      #signed_up: "Welcome! You have signed up successfully."
+      signed_up_but_inactive: "Sus datos de ingreso son correctos. Sin embargo, no puede iniciar sesión porque su cuenta no ha sido activada."
+      signed_up_but_locked: "Sus datos de ingreso son correctos. Sin embargo, no puede iniciar sesión porque su cuenta ha sido bloqueada."
+      signed_up_but_unconfirmed: "Un mensaje con un link de confirmación ha sido enviado a su dirección de correo electrónico. Por favor siga el link para activar su cuenta."
+      update_needs_confirmation: "Su cuenta ha sido activada con éxito, pero necesitamos verificar su nueva dirección de correo electrónico. Por favor revise su email y siga el link de confirmación para verificar su nueva dirección de correo."
+      updated: "Ha actualizado su cuenta con éxito."
+    sessions:
+      new:
+        site_title: "Ingreso"
+        submit: "Ingreso"
+        title: "Ingrese utilizando su dirección de email"
+        login_title: Ingreso
+        login_subtitle: "Si ya tiene una cuenta"
+        register_title: "Registro"
+        register_subtitle: "Use su dirección de email"
+        with_facebook: "Use su cuenta de facebook"
+        with_facebook_subtitle: "Una manera más rápida de ingresar"
+        google_warning_html: "Si esta usando una cuenta de <strong>Google</strong>:"
+        google_step_1: "1 - Clic en %{link}"
+        google_step_2: "2 - Siga los pasos para crear una nueva contraseña."
+        with_another_social: "El soporte de Twitter será removido la siguiente semana"
+        with_another_social_subtitle: ""
+      signed_in: ''
+      #signed_in: "Signed in successfully."
+      signed_out: ''
+      #signed_out: "Signed out successfully."
+    unlocks:
+      send_instructions: "Recibirá un email con instrucciones de cómo desbloquear su cuenta en unos minutos."
+      send_paranoid_instructions: "Si su cuenta existe, recibirá un email con instruccionies de cómo desbloquear en unos minutos."
+      unlocked: "Su cuenta ha sido desbloqueada con éxito. Por favor inicie una sesión para continuar."
+  errors:
+    messages:
+      already_confirmed: "ya ha sido confirmada, por favor intente iniciando una sesión"
+      confirmation_period_expired: "necesita ser confirmada dentro de %{period}, por favor requiera una nueva"
+      expired: "ha expirado, por favor requiera una nueva"
+      not_found: "no encontrada"
+      not_locked: "no está bloqueada"
+      not_saved:
+        one: "1 error impide que %{resource} sea guardado:"
+        other: "%{count} errors prohiben que %{resource} sean guardados:"

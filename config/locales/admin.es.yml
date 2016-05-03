@@ -1,0 +1,109 @@
+es:
+  admin: &admin
+    confirm_dialog: 'Está seguro?'
+    projects:
+      index:
+        by_state: 'Por estado'
+        between_created_at: 'Creado entre'
+        submit: 'Filtro'
+        send_to_trash: 'Eliminar'
+        send_to_draft: 'Enviar a BORRADOR!'
+        reject: 'Rechazar!'
+        approve: 'Aprobar!'
+        order_asc: 'Objetivo asc'
+        order_desc: 'Objetivo desc'
+        order_created_at: 'Fecha de envío'
+        last_modification: 'Última modificación'
+    financials:
+      index:
+        submit: 'FilFiltroter'
+        by_state: 'Por estado'
+        by_progress: Por progreso %
+    users:
+      index:
+        title: "Gestión de contribuciones"
+        menu: Usuarios
+        credits: Créditos
+        credits_view: "Créditos calculados"
+        id: ID
+        key: Key
+        submit: Buscar
+        has_credits_difference: "Discrepancia en créditos"
+        total_contributed: contribuídos
+        total_contributors: contribuyentes
+        total_contributions: contribuciones
+        total_users: usuaros
+        total_credits: créditos
+        total_credits_view: "créditos calculados"
+        user: Usuario
+        value: Valor
+        provider: Proveedor
+    contributions:
+      messages:
+        successful:
+          confirm: 'Contribución confirmada!'
+          pendent: 'Contribución sin confirmar'
+          refund: 'Contribución reembolsada!'
+          change_reward: 'Recompensa cambiada!'
+          hide: 'Contribución oculta!'
+          cancel: 'Contribución cancelada!'
+          push_to_trash: 'Contribución eliminada!'
+      index:
+        send_refund_request_contribution: 'Enviar requerimiento de reembolso'
+        push_to_trash: 'Eliminar contribución'
+        cancel: 'Cancelar contribución'
+        refund_and_hide: 'Reembolsar y ocultar'
+        contribution_info: 'Información de contribución %{key}'
+        payment_id: 'ID de Pago'
+        payment_method: 'Método de Pago'
+        payment_fee: 'Comisión del Método de Pago'
+        payment_choice: 'Pago escogido'
+        payer_email: 'Email de quien Paga'
+        user_email: 'Email de usuario de EcuadorSolidario'
+        pending_to_refund: 'Reembolso pendiente'
+        created_at: 'Creado en'
+        title: "Gestión de Contribuciones"
+        menu: Contribuciones
+        anonymous: Anónimo?
+        confirmed: Confirmado?
+        credits: "Créditos de Usuario?"
+        id: ID
+        key: Key
+        no_contributions: "No se encontraron contribuciones."
+        project: Proyecto
+        refunded: Reembolso?
+        requested_refund: "Requerir reembolso?"
+        reward: Recompensa
+        no_reward: "No Recompensa"
+        submit: Buscar
+        total_contributed: contribuido
+        total_contributors: contribuyentes
+        total_contributions: contribuciones
+        total_users: Usuarios
+        user: Usuario
+        value: Valor
+    statistics:
+      index:
+        menu: "Estadísticas"
+        title: "Estadísticas"
+        total_users: "Usuarios"
+        total_contributions: "Contribuciones"
+        total_contributors: "Contribuyentes"
+        total_contributed: "Contribuido"
+        total_projects: "Proyectos"
+        total_projects_success: "Exitosos"
+        total_projects_online: "En Línea"
+      projects_by_week:
+        title: "Proyectos enviados por semana"
+        current_period: "Últimas 8 semanas"
+        previous_period: "Anteriores 8 semanas"
+        last_year: "Último año"
+      contributions_by_week:
+        title: "Valor Contribuido y confirmado por semana"
+        current_period: "Últimas 8 semanas"
+        previous_period: "Anteriores 8 semanas"
+        last_year: "Último año"
+
+  channels:
+    admin:
+      <<: *admin
