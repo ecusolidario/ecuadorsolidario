@@ -1,0 +1,16 @@
+es:
+  devise:
+    passwords:
+      new:
+        no_account_html: "Necesita una cuenta?"
+        titles:
+          site: 'Olvidó su contraseña?'
+          header: 'Olvidó su contraseña?'
+        links:
+          register: "Registro"
+        form:
+          labels:
+            email: "Le enviaremos las intrucciones de cómo restablecer su constraseña a la dirección de correo asociada a su cuenta"
+          inputs:
+            submit: 'Restablecer contraseña'
+

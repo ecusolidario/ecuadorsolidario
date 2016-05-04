@@ -1,0 +1,6 @@
+es:
+  errors:
+    not_found:
+      text: Es posible que haya escrito mal la dirección o la página que buscad se ha movido..
+      title: No hemos encontrado esta dirección :(
+

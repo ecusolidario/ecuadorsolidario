@@ -1,0 +1,16 @@
+es:
+  deivse:
+    passwords:
+      edit:
+        titles:
+          site: 'Configuración de contraseña'
+          header: 'Configuración de contraseña'
+        form:
+          hint:
+            password_length: 'Debe tener al menos 6 caracteres.'
+          labels:
+            password: 'Nueva contraseña'
+            password_confirmation: 'Ingrese otra vez la contraseña'
+          inputs:
+            submit: 'Actualizar e iniciar sesión'
+

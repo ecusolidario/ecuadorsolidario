@@ -16,7 +16,7 @@ es:
         last_modification: 'Última modificación'
     financials:
       index:
-        submit: 'FilFiltroter'
+        submit: 'Filtrar'
         by_state: 'Por estado'
         by_progress: Por progreso %
     users:

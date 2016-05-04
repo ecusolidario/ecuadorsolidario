@@ -1,0 +1,23 @@
+es:
+  layouts:
+    header:
+      blog: Blog
+      discover: Explore
+      hello: Conozca más
+      faq: FAQ
+      help: Contáctenos
+      help_support: Centro de Ayuda
+      profile: Mis datos
+      projects: Mis proyectos
+      signin: Ingreso
+      signup: Regístrese
+      submit: Comience su proyecto
+      search: Buscar proyectos
+    login:
+      login_with_facebook: ingrese con su cuenta de facebook
+    user:
+      my_contributions: Mis contribuciones
+      logout: Salir
+      my_credits: Saldo de créditos
+      refund_link: Solicitar reembolso
+

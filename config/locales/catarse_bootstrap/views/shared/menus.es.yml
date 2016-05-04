@@ -1,0 +1,14 @@
+es:
+  shared:
+    menus:
+      user:
+        about: 'Acerca de Ud.'
+        access_address: 'Datos y dirección'
+        activity: 'Actividad'
+        banking: 'Bancos y tarjetas'
+        contributions_history: 'Mi historial'
+        contributions_history_nav: 'Historial de contribuciones'
+        logged_as: 'Iniciado sesión como'
+        notifications: 'Notificaciones'
+        project_contributions: 'Proyectos contribuídos'
+        projects_created: 'Proyectos creados'

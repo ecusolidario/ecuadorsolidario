@@ -1,0 +1,71 @@
+es:
+  projects:
+    index_header:
+      subtitle: Contribuya con proyectos de manera colaborativa y forme parte de algo
+        mayor. Promovamos un EcuadorSolidario! Usted hace falta en esta historia.
+      title: Haga que los proyectos en que cree se hagan realidad.
+    index:
+      title: 'EcuadorSolidario'
+      back_a_project: 'Apoye a un proyecto'
+      banner_before: 'Tire '
+      banner_words:
+        0: 'sonhos'
+        1: 'discos'
+        2: 'exposições'
+        3: 'pesquisas'
+        4: 'carnavais'
+        5: 'fotografias'
+        6: 'peças de teatro'
+        7: 'documentários'
+        8: 'livros'
+        9: 'espetáculos'
+        10: 'paixões'
+        11: 'encontros'
+        12: 'músicas'
+        13: 'produtos'
+        14: 'atitudes'
+        15: 'filmes'
+        16: 'quadrinhos'
+        17: 'ideias'
+      banner_after: ' do papel'
+      see_all: 'Ver todos'
+      near_you: 'Próximos a Ud.'
+      recents: Recientes
+      blog: Blog de EcuadorSolidario
+      expiring: En la recta final
+      recommended: Populares
+      banner_subtitle: 'Música, quadrinhos, cinema, impacto social, tecnologia e muito mais. Conheça, inspire-se e apoie projetos.'
+      box:
+        by: por
+        when: en
+      banner: "Comience una búsqueda"
+      explore: "Explore proyectos"
+      links:
+        channels: "Descubra nuestros canales"
+        recommended: "Descubra proyectos recomendados"
+        expiring: "Descubra proyectos en la recta final"
+        recents: "Descubra proyectos recientes"
+        near: "Descubra proyectos en su zona"
+      sidebar:
+        titles:
+          blog: blog
+          facebook: "Visita nuestro facebook"
+          newsletter: "Suscríbase a nuestras noticias"
+          faq: "tiene dudas?"
+          schedule: agenda
+        placeholders:
+          email: "Ingrese su email"
+        buttons:
+          newsletter: Enviar
+      sections:
+        near:
+          title: 'Cerca a mí'
+        recommended:
+          title: 'Populares'
+        expiring:
+          title: "En la recta final"
+        recents:
+          title: "Recientes"
+        channels:
+          title: 'Canales'
+

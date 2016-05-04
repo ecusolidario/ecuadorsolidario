@@ -1,0 +1,34 @@
+es:
+  shared:
+    account_type_value: 'Só aceitamos conta corrente'
+    no_bank_label: 'Otros'
+    alerts:
+      pending_payment_text: "Usted tiene reembolsos pendientes en EcuadorSolidario"
+      pending_payment_link_text: "Decida o que fazer com seu dinheiro aqui!"
+    load_more: "Cargar más"
+    terms: términos de uso
+    accept_terms_html: Estoy de acuerdo con los %{link}.
+    header_channel:
+      contact: Contacto
+      logout: Salir
+      my_credits: Mis créditos
+      partners: Parceiros
+      posts: Novedades
+      profile: Mi Perfil
+      signin: Ingreso
+      signup: Registro
+      submit: Enviar proyecto
+      how_work: Cómo funciona
+    footer_channel:
+      contact: Contacto
+      how_works: Cómo funciona
+      privacy_policy: Política de privacidad
+      terms: Términos de uso
+      what_is_channel: Qué es un canal?
+      terms: "Términos de uso"
+      privacy_policy: "Política de Privacid"
+      how_it_works: "Como funciona %{name}"
+      how_channels_work: "Entienda los canales en EcuadorSolidario"
+      contact: "Contacto"
+    header_big:
+      projects: "Mis Proyectos"

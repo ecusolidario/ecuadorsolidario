@@ -1,0 +1,23 @@
+es:
+  devise:
+    registrations:
+      new:
+        have_account_html: "Ya tiene una cuenta? <strong>%{link}</strong>"
+        titles:
+          site: 'Regigstro'
+          header: 'Registro'
+        links:
+          login: "Ingreso"
+        form:
+          labels:
+            show_password: 'Mostrar contraseña'
+            name: 'Nombre'
+            password: 'contraseña'
+            newsletter: 'Me quiero suscribir al Boletín de EcuadorSolidario'
+          hint:
+            password_length: 'Debe tener al menos 6 caracteres.'
+          inputs:
+            submit: 'Registrarme'
+            facebook: 'Ingresar con Facebook'
+
+
