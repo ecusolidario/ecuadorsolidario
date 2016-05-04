@@ -76,7 +76,7 @@ Si todo está OK, ahora se puede ejecutar el proyecto!
 
 	Después de descargar PostgREST 0.3.x desempacar y ejecutar el archivo ejecutable como se explica:.
 
-		$ ./postgrest postgres://postgrest@localhost/hack4ec_development -a anonymous --jwt-secret gZH75aKtMN3Yj0iPS4hcgUuTwjAzZr9C -s 1 -p 3004
+		$ ./postgrest postgres://usuario_db:password@localhost/hack4ec_development -a anonymous --jwt-secret gZH75aKtMN3Yj0iPS4hcgUuTwjAzZr9C -s 1 -p 3004
 
 * Ejecutar el servidor Rails
 ```bash

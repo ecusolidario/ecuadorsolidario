@@ -11,4 +11,5 @@ es:
         logged_as: 'Iniciado sesión como'
         notifications: 'Notificaciones'
         project_contributions: 'Proyectos contribuídos'
-        projects_created: 'Proyectos creados'
+        projects_created: 'Proyectos creados',
+        settings: 'Configuraciones'
