@@ -1,45 +1,45 @@
 es:
   pages:
     start:
-      description: 'O Catarse é a primeira e maior plataforma de crowdfunding, ou financiamento coletivo, do Brasil. Venha tirar projetos do papel!'
-      title: 'Crowdfunding e financiamento coletivo no Brasil é no Catarse'
-      tagline: 'Crowdfunding e financiamento coletivo no Brasil é no Catarse'
-      page-title: "Como funciona o Catarse?"
-      page-subtitle: 'Conheça os pilares básicos de uma campanha de financiamento coletivo'
-      title: "Financie seu projeto coletivamente"
-      submit: "Comece gratuitamente"
-      learn-more: "Saiba mais"
-      slogan: 'Tire o seu projeto do papel'
+      description: 'EcuadorSolidario la plataforma de financiamiento colectivo para proyectos de reconstrucción de Ecuador luego del terremoto 2016. Únete a la iniciativa!'
+      title: 'Fincanciamiento colectivo en EcuadorSolidario para la reconstrucción'
+      tagline: 'Crowdfunding para un EcuadorSolidario'
+      page-title: "Cómo funciona Ecuador Solidario?"
+      page-subtitle: 'Conozca los pilares básicos de un proyecto de financiamiento colectivo'
+      title: "Financie su proyecto colectivamente"
+      submit: "Comience aquí"
+      learn-more: "Conozca más"
+      slogan: 'Hagamos realidad su iniciativa!'
       header:
-        people: "Pessoas já apoiaram pelo menos 01 projeto no Catarse"
-        success: 'Projetos ja foram financiados por aqui'
-        money: 'Foram investidos em ideias publicadas no Catarse'
+        people: "Personas que apoyan por lo menos 1 proyecto en EcuadorSolidario"
+        success: 'Proyectos que ya fueron financiados'
+        money: 'Fueron invertidos en iniciativas en EcuadorSolidario'
       banner:
-        1: 'Apoiadores'
-        2: 'Seus amigos, familiares e interessados no projeto.'
+        1: 'Contribuyentes'
+        2: 'Sus amigos, familiares e interesados en el proyecto.'
         3: 'Recompensas'
-        4: 'É o que você oferece em troca dos apoios.'
-        5: 'Meta'
-        6: 'O quanto você quer arrecadar no Catarse.'
-        7: 'Tempo'
-        8: 'É o período que sua campanha estará aberta a receber apoios.'
+        4: 'Lo que Ud. ofrece a cambio de contribuciones.'
+        5: 'Objetivo'
+        6: 'La cantidad que desea recaudar en EcuadorSolidario.'
+        7: 'Tiempo'
+        8: 'Período de tiempo en el cual la campaña estará activa.'
       features:
-        title: 'A plataforma ideal para sua campanha'
-        subtitle: 'Conheça as soluções que desenvolvemos para você financiar sua ideia!'
-        feature_1: 'Atendimento rápido e ágil'
-        feature_2: 'Painel de controle completo'
-        feature_3: 'Blog da campanha'
-        feature_4: 'Apoio parcelado'
-        feature_5: 'Repasse facilitado'
+        title: 'Una plataforma ideal para su iniciativa'
+        subtitle: 'Conozca las soluciones que hemos desarrollado para dar vida a su idea!'
+        feature_1: 'Atención rápida y ágil'
+        feature_2: 'Panel de control comple'
+        feature_3: 'Blog de la campaña'
+        feature_4: 'Contribuciones por cuotas'
+        feature_5: 'Transferencia ágil'
       video:
-        title: 'Uma campanha de financiamento coletivo é emoção garantida. '
-        subtitle: 'Sente o gostinho...'
+        title: 'Una campaǹa de solidaridad compartida y emoción garantizada. '
+        subtitle: 'Comienza a sentir la ayuda...'
         src: 'z7FBAjkcLG8'
       categories:
-        title: 'O Catarse tem espaço para vários tipos de projetos! Conheça nossas categorias!'
-        pledged: 'Arrecadou R$ {{pledged}} com {{contributors}} apoios para o projeto '
-        loading_featured: 'carregando projeto destaque...'
-        no_featured: 'Nenhum projeto em destaque.'
+        title: 'EcuadorSolidario tiene espacio para muchos tipos de proyectos! Revise las categorías!'
+        pledged: 'Recaudados US$ {{pledged}} con {{contributors}} contribuyentes a los proyectos '
+        loading_featured: 'cargando proyectos destacados...'
+        no_featured: 'No hay proyectos destacados.'
       categoryProjects:
         1:
           category_id: 23
@@ -163,76 +163,44 @@ es:
             secondary: 8389
       panes:
         1:
-          label: 'Atendimento rápido e ágil'
+          label: 'Atención rápida y ágil'
           src: '/assets/start-atendimento-ui.gif'
         2:
-          label: 'Painel de controle completo'
+          label: 'Un completo panel de control'
           src: '/assets/start-painel-ui.gif'
         3:
-          label: 'Blog da campanha'
+          label: 'Cada campaña tiene su blog'
           src: '/assets/start-blog-ui.gif'
         4:
-          label: 'Apoio parcelado'
+          label: 'Contribuciones por cuotas'
           src: '/assets/start-apoio.gif'
         5:
-          label: 'Repasse facilitado'
+          label: 'Transferencias ágiles'
           src: '/assets/start-repasse.gif'
-      testimonials_title: 'O que estão dizendo por aí...'
+      testimonials_title: 'Esto es lo que se decí por ahí...'
       testimonials:
         1:
           thumb: '/assets/start/thumb-marcela.jpg'
-          content: 'Estou sequenciando o genoma do mexilhão dourado. Financiei coletivamente minha pesquisa de doutorado. Esse modelo poderia mudar o mundo.'
-          name: 'Marcela Uliano'
-          totals: 'Arrecadou R$40.736 com a ajuda de 344 pessoas para viabilizar o projeto Genoma do Mexilhão Dourado.'
-        2:
-          thumb: '/assets/start/thumb-tiago.jpg'
-          content: 'Tá afim de fazer? Mete a cara. Sim, a lei de incentivo só beneficia quem tem nome. E aí, você vai ficar parado? Pare de reclamar e vá buscar uma alternativa.'
-          name: 'Tiago Vieira'
-          totals: 'Arrecadou R$34.260 com a ajuda de 203 pessoas para viabilizar o projeto "Quando parei de me preocupar com Canalhas". O filme foi parar em Cannes. ;)'
-        3:
-          thumb: '/assets/start/thumb-natalia.png'
-          content: 'Um bom repórter sabe como é difícil conseguir dinheiro para financiar a reportagem dos seus sonhos e ainda ter independência editorial para de fato escrever o que descobriu.'
-          name: 'Natalia Viana'
-          totals: 'Arrecadou R$129.159 ao receber 1771 apoios para realizar 2 projetos da Agência Pública de Jornalismo Investigativo'
-        4:
-          thumb: '/assets/start/thumb-apanhador.jpg'
-          content: 'A gente tem outras possibilidades para financiar, mas escolhe o crowdfunding por acreditar nesse caminho mesmo. Quanto mais o público estiver com as decisões na mão, melhor.'
-          name: 'Alexandre Kumpinski (Apanhador Só)'
-          totals: 'Arrecadou R$163.600 ao receber 2181 apoios para realizar 2 projetos'
-        5:
-          thumb: '/assets/start/thumb-larissa.png'
-          content: 'Sei que têm mais 200 pessoas ali comigo, enviando energia positiva, torcendo, fazendo parte disso tudo e caminhando até as Olimpíadas comigo.'
-          name: 'Larissa Juk'
-          totals: 'Arrecadou R$28.532 ao receber 218 apoios para o projeto Larissa Juk rumo a Olimpíada Rio 2016'
-      qa_title: 'Ainda com dúvidas?'
+          content: 'Contenido de Testimonio.'
+          name: 'Nombre testimonio'
+          totals: 'Valores o resultados del proyecto.'
+      qa_title: 'Tiene dudas?'
       qa:
         col_1:
           1:
-            question: 'Por que fazer uma campanha no Catarse?'
-            answer: 'Primeiro porque somos extremamente comprometidos e apaixonados pelo que fazemos e queremos ver seu projeto financiado. Mas também porque somos a primeira e maior plataforma em atuação no Brasil. Estamos trabalhando de forma independente para desenvolver o cenário de financiamento de projetos no Brasil e possibilitar que mais pessoas viabilizem suas ideias, sonhos e visões.'
+            question: 'FAQ Pregunta 1?'
+            answer: 'FAQ Respuesta 1'
           2:
-            question: 'Dá muito trabalho ter uma campanha no Catarse?'
-            answer: 'Cada projeto no Catarse tem sua própria particularidade e a quantidade de trabalho varia. Inscrever um projeto no Catarse é muito fácil, mas uma campanha tem seus desafios. O segredo é ter um bom planejamento de campanha! Podemos te ajudar! <a href="#start-form">Só começar o seu rascunho.</a>'
-          3:
-            question: 'Como o Catarse seleciona projetos?'
-            answer: 'Todo projeto precisa ter início meio e fim, ter entregas e objetivos claros e estar de acordo com os termos de uso e regras do Catarse. <a href="http://suporte.catarse.me/hc/pt-br">Acesse nossa Central de Suporte</a> para mais informações.'
-          4:
-            question: 'Quem pode usar o Catarse?'
-            answer: 'O Catarse fornece suporte aos usuários do site e torna possível que projetos captem recursos de forma ágil e direta utilizando a internet. Qualquer pessoa acima de 18 anos (ou menor, mas com um representante legal) pode utilizar nossos serviços e fazer uma campanha de crowdfunding.'
+            question: 'FAQ Pregunta 2?'
+            answer: 'FAQ Respuesta 2'
         col_2:
           1:
-            question: 'Preciso atingir a meta para receber meu dinheiro?'
-            answer: 'Atualmente utilizamos o modelo “tudo ou nada”, em que você só fica com o dinheiro caso atinja a meta de arrecadação no tempo de campanha estipulado por você. Caso o projeto não atinja a meta de arrecadação, iremos devolver integralmente o dinheiro para seus apoiadores, sem custo nenhum para você ou para quem te apoiou. O "tudo ou nada "é extremamente eficiente pois, além das campanhas arrecadarem mais, essa é uma das formas de assegurarmos que um projeto só acontecerá se ele puder ser entregue como foi descrito e prometido aos apoiadores.<br><br>No entanto, estamos construindo a modalidade flexível de financiamento coletivo para o Catarse, carinhosamente chamada de Catarse flex. Ela será diferente de todas as modalidades de campanhas flexíveis que existem no mercado. No modo Catarse flex você fica com todo o dinheiro que conseguir independente de bater a meta ou não. Essa modalidade ainda não está aberta ao público geral, mas você pode saiber mais em <a href="https://www.catarse.me/flex">www.catarse.me/flex</a>'
+            question: 'FAQ Pregunta 3?'
+            answer: 'FAQ Respuesta 3'
           2:
-            question: 'Quais são nossas taxas?'
-            answer: 'Cobramos 13% sobre o valor total de projetos que atingiram ou ultrapassaram a meta de arrecadação de sua campanha de crowdfunding. Ficamos com cerca de 9% e 4% é repassado ao Pagar.me, meio de pagamento utilizado no Catarse. Projetos na modalidade "tudo ou nada" de financiamento coletivo, e que não atingiram a meta de arrecadação no tempo de campanha, não têm qualquer custo e todos os apoiadores recebem o dinheiro de volta.'
-          3:
-            question: 'De onde vem o dinheiro do meu projeto?'
-            answer: 'Família, amigos, fãs e membros de comunidades que você faz parte são seus maiores colaboradores. Você agita essa rede, conquista apoios e promove o projeto. Apoiadores divulgam e recomendam sua campanha para outras pessoas que conhecem, e assim o círculo de apoiadores vai crescendo e a campanha recebendo apoios. O segredo é construir um bom projeto, planejar bem sua campanha e saber direcionar seus esforços de divulgação para quem realmente pode se interessar no que você está propondo em sua campanha de crowdfunding.'
-          4:
-            question: 'Tenho mais dúvidas. Como faço?'
-            answer: '<a href="http://suporte.catarse.me/hc/pt-br">Acesse nossa Central de Suporte</a> ou entre em contato conosco através do email: contato@catarse.me'
+            question: 'FAQ Pregunta 4?'
+            answer: 'FAQ Respuesta 4'
       form:
-        title: 'Quero iniciar uma campanha chamada'
-        select_default: 'Selecione uma categoria'
-        submit: 'Comece seu rascunho'
+        title: 'Quiero iniciar una campaña llamada:'
+        select_default: 'Seleccione una categoría'
+        submit: 'Comience su proyecto'

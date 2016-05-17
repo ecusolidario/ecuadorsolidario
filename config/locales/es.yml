@@ -125,12 +125,12 @@ es:
       faq: "have a question?"
       schedule: calendar
     placeholders:
-      email: "Enter your email"
+      email: "Ingrese su email"
     buttons:
-      newsletter: Submit
+      newsletter: Enviar
   sections:
     near:
-      title: Near me
+      title: Cerca a mí
     recommended:
       title: Recommended
     expiring:
@@ -324,13 +324,13 @@ es:
       remember_me: "Remember me and keep me logged in."
     header:
       blog: Blog
-      help: Help
-      signup: "Sign up"
-      signin: Login
-      discover: Discover
-      submit: Send your project
-      profile: "My profile"
-      account: "My account"
+      help: Ayuda
+      signup: Registro
+      signin: Ingreso
+      discover: Descubra
+      submit: Envíe su proyecto
+      profile: "Mi perfil"
+      account: "Mi cuenta"
     user:
       logout: Logout
       my_credits: "My credit"

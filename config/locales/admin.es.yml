@@ -16,9 +16,38 @@ es:
         last_modification: 'Última modificación'
     financials:
       index:
+        id: ID
+        name: 'Titulo'
+        user: 'Usuario MoIP'
+        user_id: 'User ID'
+        goal: 'Meta'
+        total_payment_service_fee: 'Comisión de pago'
+        total_catarse_fee: 'Servicio EcuadorSolidario'
+        zero_fee: 'Contribución sin Comisión?'
+        repass_value: 'Vl. Repasse'
+        expires_at: 'Finaliza en'
+        online_date: 'Publicado desde'
+        pledged: 'Alcanzado'
+        recommended: 'Recomendado?'
+        state: 'Estado'
+        menu: 'Rep. Financieros'
+        title: 'Reportes Financieros'
+        contribution_report: "Reporte de contribuciones"
+        search_report: "Reporte de Búsqueda"
+        total_projects: 'proyectos'
         submit: 'Filtrar'
         by_state: 'Por estado'
+        between_expires_at: 'Expiran entre'
         by_progress: Por progreso %
+        details:
+          name: 'Razón social'
+          bank_data: 'Datos bancarios'
+          document: 'CI / RUC / PASAPORTE'
+          email: 'E-mail'
+          state_inscription: 'Incrição estadual'
+          address: 'Dirección'
+          phone_number: 'Teléfono'
+          permalink: 'Permalink de proyeto'
     users:
       index:
         title: "Gestión de contribuciones"

@@ -11,8 +11,8 @@ es:
           image: 'https://s3.amazonaws.com/cdn.catarse/assets/banner-home-start.jpg'
     new_feature_badge: 'Novedades'
     publish:
-      aon: 'Tudo ou nada'
-      flex: 'Flexível'
+      aon: 'Todo o nada'
+      flex: 'Flexible'
     insights:
       tooltip: 'Informa de onde vieram os apoios de seu projeto. Saiba como usar essa tabela e planejar melhor suas ações de comunicação '
       finish_explanation: 'Sua campanha ainda está com o prazo em aberto. Para receber os recursos em sua conta bancária, é preciso definir uma data final de arrecadação.'

@@ -16,9 +16,38 @@ en:
         last_modification: 'Last update'
     financials:
       index:
-        submit: 'Filter'
-        by_state: 'By state'
-        by_progress: By progress %
+        id: ID
+        name: 'Titulo'
+        user: 'Usuário MoIP'
+        user_id: 'User ID'
+        goal: 'Meta'
+        total_payment_service_fee: 'Taxa do MP'
+        total_catarse_fee: 'Taxa do Catarse'
+        zero_fee: 'Apoio sem taxa?'
+        repass_value: 'Vl. Repasse'
+        expires_at: 'Finaliza'
+        online_date: 'Entrou no ar'
+        pledged: 'Alcançado'
+        recommended: 'Recomendado?'
+        state: 'Estado'
+        menu: 'Rel. Financeiros'
+        title: 'Relatórios financeiros'
+        contribution_report: "Relatório de apoiadores"
+        search_report: "Relatório da busca"
+        total_projects: 'projetos'
+        submit: 'filtrar'
+        by_state: 'Por estado'
+        between_expires_at: 'Expiram entre'
+        by_progress: Por progresso %
+        details:
+          name: 'Razão social'
+          bank_data: 'Dados bancarios'
+          document: 'CPF / CNPJ'
+          email: 'E-mail'
+          state_inscription: 'Incrição estadual'
+          address: 'Endereço'
+          phone_number: 'Telefone'
+          permalink: 'Permalink do projeto'
     users:
       index:
         title: "Management contributions"
