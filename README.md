@@ -8,7 +8,7 @@ Bienvenidos al repositorio de EcuadorSolidario.
 Nuestro objetivo es estimular a la comunidad de emprendedores tecnológicos para unir esfuerzos solidarios para así crear una plataforma global que permita la organización de las tentativas de ayuda y solidaridad en las necesidades creadas en las zonas afectadas por el Terremoto de Ecuador en el 2016. Creando una plataforma de alta calidad para obtener bienes y servicios que satisfagan las necesidades de la comunidad.
 
 Usted puede ver el software en acción en http://ecuadorsolidario.org.
-The official repo is https://github.com/ecuadorsolidario/ecuadorsolidario
+The official repo is https://github.com/ecusolidario/ecuadorsolidario
 
 ## Cómo empezar
 
@@ -33,7 +33,7 @@ Para ejecutar este proyecto se necesita:
 
 * Clonar el proyecto
 
-        $ git clone https://github.com/ecuadorsolidario/ecuadorsolidario.git
+        $ git clone https://github.com/ecusolidario/ecuadorsolidario.git
 
 * Entrar al directorio del proyecto.
 
