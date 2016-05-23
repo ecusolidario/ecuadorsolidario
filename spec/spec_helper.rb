@@ -28,8 +28,8 @@ RSpec.configure do |config|
     current_user = con.execute("SELECT current_user;")[0]["current_user"]
     con.execute %{ALTER USER #{current_user} SET search_path TO "$user", public, "1", "postgrest";}
     DatabaseCleaner.clean_with :truncation
-    I18n.locale = :pt
-    I18n.default_locale = :pt
+    I18n.locale = :es
+    I18n.default_locale = :es
 
     FakeWeb.register_uri(:get, "http://vimeo.com/api/v2/video/17298435.json", response: fixture_path('vimeo_default_json_request.txt'))
     FakeWeb.register_uri(:get, "http://vimeo.com/17298435", response: fixture_path('vimeo_default_request.txt'))
