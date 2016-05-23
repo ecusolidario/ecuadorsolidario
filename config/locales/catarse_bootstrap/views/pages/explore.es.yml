@@ -1,0 +1,19 @@
+es:
+  pages:
+    explore:
+      header_html: "Descubra proyectos increíbles &nbsp;"
+      success_follow: "Gracias. Le enviaremos por correo electrónico los proyectos recientes de la categoría %{name}."
+      success_unfollow: "Usted dejó de seguir la categoría %{name}."
+      follow: Seguir
+      unfollow: Dejar de seguir
+      following: seguidores
+      categories: Categorías
+      expiring: En la recta final
+      in_funding: No ar
+      near: Cercanos a mí
+      quick_explore: Búsqueda rápida
+      recent: Recientes
+      recommended: Populares
+      subtitle: Explore los proyectos, encuentre aquellos lleguen a su corazón, y hágalo realidad!
+      successful: Exitosos
+      title: Encuentre proyectos increíbles
