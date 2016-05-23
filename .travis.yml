@@ -6,8 +6,8 @@ before_install:
 
 before_script:
   - "cp config/database.sample.yml config/database.yml"
-  - "psql -c 'create role catarse SUPERUSER LOGIN;' postgres"
-  - "psql -c 'create database catarse_test;' -U catarse postgres"
+  - "psql -c 'create role hack4ec SUPERUSER LOGIN;' postgres"
+  - "psql -c 'create database hack4ec_test;' -U hack4ec postgres"
   - "sh -e /etc/init.d/xvfb start"
   - "bundle exec rake db:migrate"
 

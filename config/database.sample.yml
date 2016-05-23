@@ -12,7 +12,7 @@ development:
   adapter: postgresql
   encoding: unicode
   host: localhost
-  database: catarse_development
+  database: hack4ec_development
   pool: 5
   username: postgres # <== Change me!!
   password: password # <== Change me too!
@@ -42,7 +42,7 @@ test:
   encoding: unicode
   host: localhost
   port: 5432
-  database: catarse_test
+  database: hack4ec_test
   pool: 5
   username: postgres # <== Change me!
   password: password # <== Same here!
