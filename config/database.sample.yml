@@ -14,8 +14,8 @@ development:
   host: localhost
   database: hack4ec_development
   pool: 5
-  username: postgres # <== Change me!!
-  password: password # <== Change me too!
+  username: postgres # <== Cambiame o bórrame
+  password: password # <== Cambiame o bórrame
 
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -44,5 +44,5 @@ test:
   port: 5432
   database: hack4ec_test
   pool: 5
-  username: postgres # <== Change me!
-  password: password # <== Same here!
+  username: postgres # <== Cambiame o bórrame!
+  password: password # <== Cambiame o bórrame!
