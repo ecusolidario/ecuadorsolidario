@@ -1,5 +1,9 @@
 # EcuadorSolidario
 
+### El proyecto se ha movido a https://github.com/ecusolidario/ecuadorsolidario_app
+
+
+
 La plataforma de co-financiamiento de Ecuador para la reconstrucción
 
 ## Una plataforma open-source para el financiamiento de proyectos de reconstrucción.
